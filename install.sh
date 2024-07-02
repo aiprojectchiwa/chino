@@ -78,7 +78,7 @@ sudo apt install -y jq
 # if [ "$USER_TOKEN" != "$chiw" ]; then
 #   echo -e "${RED}Yahhhh,tokennya salaahhh, papayyy~~~~~${NC}"
 #   exit 1
-else
+# else
   echo -e "${GREEN}Yeyyy tokennya bener >_< Irasheimase~~~~~${NC}"
   echo -e "${YELLOW}Loading yah kak, script by @akane_chiwa...${NC}"
   for i in {1..10}; do
