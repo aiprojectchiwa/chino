@@ -93,8 +93,8 @@ else
 fi
 
 # Menampilkan menu
-echo -e "${YELLOW}Pilih opsi:${NC}"
-echo "1. Install tema"
+echo -e "${YELLOW}Pilih opsinya:${NC}"
+echo "1. Install tema Chiwa"
 echo "2. Uninstall tema"
 echo -e "${YELLOW}Masukkan pilihan (1 atau 2): ${NC}"
 read MENU_CHOICE
@@ -127,7 +127,7 @@ install_tema() {
   # Memilih tema
   echo -e "${YELLOW}Pilih tema untuk diinstall:${NC}"
   echo "1. Stellar"
-  echo "2. Enigma"
+  echo "2. Chiigma"
   echo -e "${YELLOW}Masukkan pilihan (1 atau 2): ${NC}"
   read THEME_CHOICE
 
@@ -136,7 +136,7 @@ install_tema() {
       THEME_URL="https://github.com/aiprojectchiwa/pterodactylthemeautoinstaller/raw/main/stellaredited.zip"
       ;;
     2)
-      THEME_URL="https://github.com/aiprojectchiwa/pterodactylthemeautoinstaller/raw/main/custom_install_enigma.zip"
+      THEME_URL="https://github.com/aiprojectchiwa/chino/raw/main/custom_install_enigma.zip"
       ;;
     *)
       echo -e "${RED}Pilihan tidak valid, keluar dari skrip.${NC}"
